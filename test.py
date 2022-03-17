@@ -5,7 +5,7 @@ hostname = socket.gethostname()
 IPAddr = socket.gethostbyname(hostname) 
 
 currentdate = datetime.now()
-timestamp = datetime.timestamp(currentdate)
+#timestamp = datetime.timestamp(currentdate)
 
 print("Date and time is:", currentdate)
 print("Timestamp is:", timestamp)   
